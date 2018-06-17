@@ -114,6 +114,14 @@ By default, there are two disabled git hooks. They're set up when you run the `n
 
 This makes more sense in combination with [automatic releases](#automatic-releases)
 
+### Releasing
+```bash
+git add file.js
+yarn commit // follow prompts
+git push
+yarn semantic-release:local
+```
+
 ### FAQ
 
 #### `Array.prototype.from`, `Promise`, `Map`... is undefined?
