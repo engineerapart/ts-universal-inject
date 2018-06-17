@@ -19,7 +19,7 @@ export interface IContainer {
 export interface InjectableDecoratorOptions {
   singleton: boolean;
   provides: string | symbol | null;
-  requires: (string | symbol)[];
+  requires?: (string | symbol)[];
 }
 
 export interface InjectDecoratorOptions {
