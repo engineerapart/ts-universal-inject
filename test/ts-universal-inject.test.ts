@@ -1,4 +1,4 @@
-import DummyClass from '../src/ts-universal-inject';
+import { DependencyContainer } from '../src/index';
 
 /**
  * Dummy test
@@ -8,7 +8,7 @@ describe('Dummy test', () => {
     expect(true).toBeTruthy();
   });
 
-  it('DummyClass is instantiable', () => {
-    expect(new DummyClass()).toBeInstanceOf(DummyClass);
+  it('DependencyContainer is instantiable', () => {
+    expect(new DependencyContainer()).toBeInstanceOf(DependencyContainer);
   });
 });
