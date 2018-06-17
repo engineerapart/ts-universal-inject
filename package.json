@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "dist/ts-universal-inject.umd.js",
   "module": "dist/ts-universal-inject.es5.js",
-  "typings": "dist/types/ts-universal-inject.d.ts",
+  "typings": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
