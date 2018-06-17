@@ -32,7 +32,7 @@ export default {
     // https://github.com/rollup/rollup-plugin-node-resolve#usage
     resolve(),
     // uglify
-    // terser({ warnings: true, safari10: true }),
+    terser({ warnings: true, safari10: true }),
     // Resolve source maps to the original source
     sourceMaps()
   ]
