@@ -43,7 +43,7 @@ export interface RegisterInjectableDecoratorOptions extends InjectableDecoratorO
 
 export interface Injectable {
   parent: symbol;
-  requires: (string | symbol)[] | null;
+  requires?: (string | symbol)[] | null;
   klass: IConstructor | null;
   instance?: object | null;
   singleton: boolean;
